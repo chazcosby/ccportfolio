@@ -1,12 +1,14 @@
 import React from 'react';
 import { Row, Col, Container } from "react-bootstrap";
-import pic from "../ProfilePic.png";
+import pic from "../Assets/ProfilePic.png";
 
 
 function About() {
+
+
   return (
     <div className="aboutBG">
-      <Container className="about" id="about">
+      <Container className="square-animation about" id="about">
         <Row>
           <Col className="title">
             <center>
@@ -17,7 +19,7 @@ function About() {
         <Row>
           <Col sm={10} md={5}>
             <center>
-              <img src={pic} height="230px" />
+              <img className= "square-animation" src={pic} height="230px" />
             </center>
           </Col>
           <Col className="aboutText">

@@ -1,11 +1,11 @@
 import React from 'react';
 import { Row, Col, Container, Button } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 
 function HeroBanner() {
   return (
     <div>
-     
       <Container className="heroBannerIMG heroBanner" fluid>
         <Row>
           <Col>
@@ -17,10 +17,24 @@ function HeroBanner() {
           </Col>
           <Row>
             <Col xs={12} md={10} lg={7}>
-              <i className="fa-brands fa-github fa-2xl iconSpin" /> &nbsp;
-              <i className="fa-brands fa-linkedin fa-2xl iconSpin" /> &nbsp;
-              <i className="fa-brands fa-facebook fa-2xl iconSpin" /> &nbsp;
-              <Button className="heroButton">Download Resume</Button>
+              <a href="https://github.com/chazcosby/">
+                <i className="fa-brands fa-github fa-2xl iconSpin" /> &nbsp;
+              </a>
+              <a href="https://www.linkedin.com/in/chazcosby/">
+                <i className="fa-brands fa-linkedin fa-2xl iconSpin" /> &nbsp;
+              </a>
+              <a href="https://www.facebook.com/chaz.cosby">
+                <i className="fa-brands fa-facebook fa-2xl iconSpin" /> &nbsp;
+              </a>
+
+              
+
+              <a
+                href="https://docs.google.com/document/d/1mgpEZsCp7hT_dH4410gaV5NtiI9q5iRof4oy1QfjrvQ/edit?usp=sharing"
+                target="_blank"
+              >
+                <Button className="heroButton">View Resume</Button>
+              </a>
             </Col>
           </Row>
         </Row>

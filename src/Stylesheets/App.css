@@ -113,7 +113,7 @@ body {
 }
 
 .heroBannerIMG {
-  background-image: url("../heroBannerImage.png");
+  background-image: url("../Assets/heroBannerImage.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -132,7 +132,10 @@ body {
     transform: rotateY(0deg);
   }
 }
-
+.heroBanner a {
+  text-decoration: none;
+  color: #fff;
+}
 .heroBanner p {
   font-size: 30px;
 }
@@ -237,6 +240,21 @@ body {
   border-style: groove;
   border-width: 1px;
   border-color: #fff;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .square-animation {
+    animation: wipe-enter 1s 1;
+  }
+}
+
+@keyframes wipe-enter {
+	0% {
+		transform: scale(.5, .25);
+	}
+	50% {
+		transform: scale(1, .25);
+	}
 }
 
 .aboutText {

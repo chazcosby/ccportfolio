@@ -1,17 +1,18 @@
 import React from 'react';
-import { Navbar, Nav, Row, Col, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+
 
 function Header() {
   return (
     <div id="home">
-    
-      <Navbar fixed="top" className="navbg">
-        <Container className="justify-content-end">
+      <Navbar fixed="top" className="navbg navbar">
+        <Container className="navbar justify-content-end">
           <Nav className="navbar">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#portfolio">Portfolio</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
+            
           </Nav>
         </Container>
       </Navbar>
