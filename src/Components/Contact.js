@@ -2,6 +2,32 @@ import React from "react";
 import { Row, Col, Container, Button } from "react-bootstrap";
 
 function Contact() {
+
+/*
+  const sendMessage = () => {
+    let name = document.getElementById("name_id").value;
+    let email = document.getElementById("email_id").value;
+    let message = document.getElementById("message_id").value;
+    fetch("https://STITCH_WEBHOOK_URL_HERE", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify({
+        name,
+        email,
+        message,
+      }),
+    })
+      .then((response) => response.json())
+      .then((result) => {
+        console.log(result);
+      });
+  };
+
+*/
+
+
   return (
     <div className="contactBG">
       <Container className="contact" id="contact" fluid>

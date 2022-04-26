@@ -14,7 +14,7 @@ function HeroBanner() {
               My name is Chaz. I am a Designer / Front End Developer based out
               of Nashville, TN
             </p>
-          </Col>{" "}
+          </Col>
           <Row>
             <Col xs={12} md={10} lg={7}>
               <i className="fa-brands fa-github fa-2xl iconSpin" /> &nbsp;

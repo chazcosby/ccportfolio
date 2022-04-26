@@ -15,7 +15,7 @@ function About() {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col sm={10} md={5}>
             <center>
               <img src={pic} height="230px" />
             </center>
