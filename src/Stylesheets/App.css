@@ -6,6 +6,12 @@
   background-color: green;
 }
 
+.center {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   background-color: #2b2b2b;
   color: #fff;
@@ -196,11 +202,15 @@ body {
   padding-bottom: 10vmin;
   font-size: 20px;
 }
-.portfolioPar {
-  justify-content: center;
-  align-items: center;
-  margin: auto;
+.portfolioPar .btn {
+color: #fff;
+text-decoration: none;
+width: 10vh;
+margin: 1px
+ 
+
 }
+
 .portfolio-spacing {
   margin-bottom: 10vmin;
   margin-left: 10vmin;
