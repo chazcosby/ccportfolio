@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col, Container, Button } from "react-bootstrap";
 import pic1 from "../Assets/news-app-img.png";
 import pic2 from "../Assets/weather-app-img.png";
+import pic3 from "../Assets/decoder-img.png";
 
 function Portfolio() {
   return (
@@ -60,23 +61,31 @@ function Portfolio() {
               </Button>
             </p>
             <p>
-              An app using OpenWeather API to grab the users location and return
-              the current and 5 day weather forecast. Built with Html, Css,
+              An app using OpenWeather API to grab the users location to provide
+              their current and 5 day weather forecast. Built with Html, CSS,
               ReactJS, and Bootstrap.
             </p>
           </Col>
           <Col className="center" sm={10} md={3}>
             <p>
-              <a href={pic1}>
-                <img src={pic1} alt="Coming Soon" height="150" />
+              <a href={pic3}>
+                <img src={pic3} alt="Coming Soon" height="150" />
               </a>
             </p>
             <p className="portfolioPar">
-              <Button href="" target="_blank" variant="primary">
+              <Button
+                href="https://github.com/chazcosby/DecoderRingProject/tree/main"
+                target="_blank"
+                variant="primary"
+              >
                 Code
               </Button>
 
-              <Button href="" target="_blank" variant="success">
+              <Button
+                href="https://chazcosby.github.io/DecoderRingProject/"
+                target="_blank"
+                variant="success"
+              >
                 Live
               </Button>
             </p>
