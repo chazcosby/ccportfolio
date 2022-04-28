@@ -9,14 +9,11 @@
 .center {
   text-align: center;
   justify-content: center;
-  
-
 }
 
 .centerPortfolio {
   text-align: center;
   justify-content: center;
-
 }
 
 
@@ -350,7 +347,7 @@ margin: 1px
 #name_id:hover,
 #email_id:hover,
 #message_id:hover {
-  border-bottom: 3px solid;
+  border-bottom: 2px solid;
   animation: mymove 3s ease-in-out infinite;
 }
 @keyframes mymove {
@@ -374,6 +371,41 @@ textarea:focus,
 input:focus {
   outline: none;
 }
+
+#submit_id {
+  background-color: #8ab4f8;
+  color: #000;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: #0d6efd;
+  font-size: 1rem;
+  padding: 1vh;
+
+
+}
+
+#submit_id:hover {
+  background-color: #0d6efd;
+  color: #fff;
+  border-color: #0d6efd;
+}
+
+#submit_id:focus {
+  outline: 5px solid rgb(13, 110, 253, .25);
+}
+.thankYou {
+  padding-top: 10vmin;
+  padding-bottom: 10vmin;
+  margin: auto;
+text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  font-size: 20px;
+
+}
+
+
 
 /* Footer */
 

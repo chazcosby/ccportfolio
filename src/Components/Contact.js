@@ -1,32 +1,23 @@
 import React from "react";
-import { Row, Col, Container, Button } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
+import { useForm } from '@formspree/react';
+
 
 function Contact() {
 
-/*
-  const sendMessage = () => {
-    let name = document.getElementById("name_id").value;
-    let email = document.getElementById("email_id").value;
-    let message = document.getElementById("message_id").value;
-    fetch("https://STITCH_WEBHOOK_URL_HERE", {
-      method: "POST",
-      headers: {
-        "content-type": "application/json",
-      },
-      body: JSON.stringify({
-        name,
-        email,
-        message,
-      }),
-    })
-      .then((response) => response.json())
-      .then((result) => {
-        console.log(result);
-      });
-  };
-
-*/
-
+  const [state, handleSubmit] = useForm("mknypvja");
+  if (state.succeeded) {
+      return (
+        <Container className="thankYou">
+          <Row className="thankYou">
+            <p>Thanks for being awesome!</p>
+            <p>
+              I have received your message and will be in touch by email as soon
+              as possible.
+            </p>
+          </Row>
+        </Container>
+      );}
 
   return (
     <div className="contactBG">
@@ -42,9 +33,9 @@ function Contact() {
           <Col>
             <form
               class="form-control"
-              action="mailto:chaz.cosby@gmail.com"
-              method="GET"
-              target="_blank"
+              action="https://formspree.io/f/mknypvja"
+              method="POST"
+              onSubmit={handleSubmit}
             >
               <h4>Name *</h4>
               <li>
@@ -52,7 +43,12 @@ function Contact() {
               </li>
               <h4>Email *</h4>
               <li>
-                <input required="true" name="email" id="email_id" />
+                <input
+                  required="true"
+                  name="email"
+                  id="email_id"
+                  type="email"
+                />
               </li>
               <h4>Message *</h4>
               <li>
@@ -62,7 +58,12 @@ function Contact() {
                   id="message_id"
                 ></textarea>
               </li>
-              <Button className="submit">Send Message</Button>
+              <input
+                className="submit"
+                type="submit"
+                value="Send Message"
+                id="submit_id"
+              />
             </form>
           </Col>
         </Row>
