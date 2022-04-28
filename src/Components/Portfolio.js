@@ -61,7 +61,7 @@ function Portfolio() {
               </Button>
             </p>
             <p>
-              An app using OpenWeather API to grab the users location to provide
+              An app using OpenWeather API to grab the users location and provide
               their current and 5 day weather forecast. Built with Html, CSS,
               ReactJS, and Bootstrap.
             </p>
