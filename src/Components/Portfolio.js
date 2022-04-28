@@ -90,9 +90,8 @@ function Portfolio() {
               </Button>
             </p>
             <p>
-              A website using NewsAPI to get various sources and each source can
-              provide major headlines in multiple categories. Built with HTML,
-              CSS, ReactJS and Bootstrap.
+              An app that can encode or decode a secret message using a variety of
+              ciphers. Built with HTML, CSS, and JavaScript.
             </p>
           </Col>
         </Row>
