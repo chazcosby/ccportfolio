@@ -6,7 +6,7 @@ import pic2 from "../Assets/weather-app-img.png";
 function Portfolio() {
   return (
     <div>
-      <Container className="portfolio" id="portfolio" fluid>
+      <Container className="portfolio center" id="portfolio" fluid>
         <Row>
           <Col>
             <center>
@@ -14,8 +14,8 @@ function Portfolio() {
             </center>
           </Col>
         </Row>
-        <Row>
-          <Col className="center">
+        <Row className="center">
+          <Col className="center" sm={10} md={3}>
             <p>
               <a href={pic1}>
                 <img src={pic1} alt="Coming Soon" height="150" />
@@ -36,7 +36,7 @@ function Portfolio() {
               CSS, ReactJS and Bootstrap.
             </p>
           </Col>
-          <Col className="center">
+          <Col className="center" sm={10} md={3}>
             <p>
               <a href={pic2}>
                 <img src={pic2} alt="Coming Soon" height="150" />
@@ -65,7 +65,7 @@ function Portfolio() {
               ReactJS, and Bootstrap.
             </p>
           </Col>
-          <Col className="center">
+          <Col className="center" sm={10} md={3}>
             <p>
               <a href={pic1}>
                 <img src={pic1} alt="Coming Soon" height="150" />

@@ -9,8 +9,16 @@
 .center {
   text-align: center;
   justify-content: center;
-  align-items: center;
+  
+
 }
+
+.centerPortfolio {
+  text-align: center;
+  justify-content: center;
+
+}
+
 
 body {
   background-color: #2b2b2b;
@@ -205,7 +213,6 @@ body {
 .portfolioPar .btn {
 color: #fff;
 text-decoration: none;
-width: 10vh;
 margin: 1px
  
 
@@ -271,6 +278,7 @@ margin: 1px
   justify-content: center;
   align-items: center;
   margin: auto;
+  
 }
 
 .aboutBG {
