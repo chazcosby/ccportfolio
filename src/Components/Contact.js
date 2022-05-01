@@ -8,15 +8,17 @@ function Contact() {
   const [state, handleSubmit] = useForm("mknypvja");
   if (state.succeeded) {
       return (
-        <Container className="thankYou">
-          <Row className="thankYou">
-            <p>Thanks for being awesome!</p>
-            <p>
-              I have received your message and will be in touch by email as soon
-              as possible.
-            </p>
-          </Row>
-        </Container>
+        <div className="thankYou">
+          <Container fluid>
+            <Row className="thankYou">
+              <p>Thanks for being awesome!</p>
+              <p>
+                I have received your message and will be in touch by email as
+                soon as possible.
+              </p>
+            </Row>
+          </Container>
+        </div>
       );}
 
   return (
@@ -59,6 +61,7 @@ function Contact() {
                 ></textarea>
               </li>
               <input
+                required="true"
                 className="submit"
                 type="submit"
                 value="Send Message"

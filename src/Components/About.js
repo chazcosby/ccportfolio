@@ -19,7 +19,7 @@ function About() {
         <Row>
           <Col sm={10} md={5}>
             <center>
-              <img className= "square-animation" src={pic} height="230px" />
+              <img className="square-animation" src={pic} height="230px" />
             </center>
           </Col>
           <Col className="aboutText">

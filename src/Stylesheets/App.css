@@ -100,6 +100,8 @@ body {
   width: 100%;
 }
 
+
+
 /* Hero Banner */
 
 .heroBanner {
@@ -111,17 +113,7 @@ body {
   margin: auto;
 }
 
-@media only screen and (max-width: 520px) {
-  .heroBanner {
-    margin-top: 5vmin;
-    text-align: center;
-    background-color: #fff;
-    height: 100%;
-  }
-  .heroButton {
-    margin-top: 10vmin;
-  }
-}
+
 
 .heroBannerIMG {
   background-image: url("../Assets/heroBannerImage.png");
@@ -131,7 +123,7 @@ body {
 
 .heroBanner h3 {
   font-size: 45px;
-
+margin-left:5vh;
   animation: rotate ease-in 1.5s 1;
 }
 
@@ -149,7 +141,14 @@ body {
 }
 .heroBanner p {
   font-size: 30px;
+  margin-left:5vh;
 }
+
+.heroBannerIcons {
+  margin-left:5vh;
+}
+
+
 
 .iconSpin:hover {
   animation: shake 0.5s;
@@ -197,6 +196,30 @@ body {
   color: #000;
   font-weight: bold;
   margin: auto;
+}
+
+@media only screen and (max-width: 520px) {
+  .heroBanner {
+    margin-top: 5vmin;
+    text-align: center;
+    background-color: #fff;
+    height: 100%;
+  }
+
+  .heroBannerIcons {
+  text-align: center;
+  margin-left: 0px;
+}
+
+.heroBanner p {
+  font-size: 30px;
+  margin-left:0px;
+}
+.heroBanner h3 {
+  font-size: 45px;
+margin-left:0px;
+}
+
 }
 
 /* Portfolio */
@@ -256,6 +279,7 @@ margin: 1px
   border-color: #fff;
 }
 
+/*
 @media (prefers-reduced-motion: no-preference) {
   .square-animation {
     animation: wipe-enter 1s 1;
@@ -270,6 +294,7 @@ margin: 1px
 		transform: scale(1, .25);
 	}
 }
+*/
 
 .aboutText {
   justify-content: center;
@@ -289,6 +314,53 @@ margin: 1px
 
   }
 }
+
+/* Skills */
+
+.techIcons {
+padding: 2vw;    
+    animation: spin 2s 1 linear;
+    padding-bottom: 10vmin;
+}
+
+
+.techIcons:hover {
+
+    animation: vibrate .5s infinite linear;
+}
+
+@keyframes vibrate {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, -5px);
+  }
+  50% {
+    transform: translate(0, 5px);
+  }
+  75% {
+    transform: translate(0, -5px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+
+
+
+.skills h3 {
+  font-size: 35px;
+
+  padding-bottom: 10vmin;
+}
+
+
+@media only screen and (max-width: 520px) {
+  .techIcons {
+    font-size: 4vh;
+  }}
 
 /* Contact */
 
@@ -400,8 +472,9 @@ input:focus {
 text-align: center;
   justify-content: center;
   align-items: center;
-  width: 75%;
   font-size: 20px;
+  background-color: #fff;
+  color: #000;
 
 }
 

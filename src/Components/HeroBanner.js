@@ -16,7 +16,7 @@ function HeroBanner() {
             </p>
           </Col>
           <Row>
-            <Col xs={12} md={10} lg={7}>
+            <Col className="heroBannerIcons" xs={12} md={10} lg={7}>
               <a href="https://github.com/chazcosby/">
                 <i className="fa-brands fa-github fa-2xl iconSpin" /> &nbsp;
               </a>
