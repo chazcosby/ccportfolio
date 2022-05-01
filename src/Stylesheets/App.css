@@ -329,7 +329,8 @@ margin: 1px
   
 }
 .techIcons {
-padding: 2vw;    
+padding-left: 1vh;
+padding-right: 1vh;   
     animation: spin 2s 1 linear;
     padding-bottom: 10vmin;
 }
@@ -338,6 +339,7 @@ padding: 2vw;
 .techIcons:hover {
 
     animation: vibrate .5s infinite linear;
+    
 }
 
 @keyframes vibrate {

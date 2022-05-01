@@ -17,7 +17,7 @@ function Skills() {
         </Row>
         <Row>
           <Col className="center">
-            <i class="fa-brands fa-node fa-2x techIcons" title="NodeJS"></i>
+            <i class="fa-brands fa-node fa-2x techIcons techIconsTitle" title="NodeJS"></i>
             <i class="fa-brands fa-js fa-2x techIcons" title="JavaScript"></i>
             <i class="fa-brands fa-html5 fa-2x techIcons" title="HTML"></i>
             <i class="fa-brands fa-css3-alt fa-2x techIcons" title="CSS"></i>

@@ -19,7 +19,7 @@ function Portfolio() {
           <Col className="center" sm={10} md={3}>
             <p>
               <a href={pic1}>
-                <img src={pic1} alt="Coming Soon" height="150" />
+                <img src={pic1} alt="Coming Soon" height="200" width="150" />
               </a>
             </p>
             <p className="portfolioPar">
@@ -40,7 +40,7 @@ function Portfolio() {
           <Col className="center" sm={10} md={3}>
             <p>
               <a href={pic2}>
-                <img src={pic2} alt="Coming Soon" height="150" />
+                <img src={pic2} alt="Coming Soon" height="200" width="150" />
               </a>
             </p>
             <p className="portfolioPar">
@@ -61,15 +61,15 @@ function Portfolio() {
               </Button>
             </p>
             <p>
-              An app using OpenWeather API to grab the users location and provide
-              their current and 5 day weather forecast. Built with Html, CSS,
-              ReactJS, and Bootstrap.
+              An app using OpenWeather API to grab the users location and
+              provide their current and 5 day weather forecast. Built with Html,
+              CSS, ReactJS, and Bootstrap.
             </p>
           </Col>
           <Col className="center" sm={10} md={3}>
             <p>
               <a href={pic3}>
-                <img src={pic3} alt="Coming Soon" height="150" />
+                <img src={pic3} alt="Coming Soon" height="200" width="150" />
               </a>
             </p>
             <p className="portfolioPar">
@@ -90,8 +90,8 @@ function Portfolio() {
               </Button>
             </p>
             <p>
-              An app that can encode or decode a secret message using a variety of
-              ciphers. Built with HTML, CSS, and JavaScript.
+              An app that can encode or decode a secret message using a variety
+              of ciphers. Built with HTML, CSS, and JavaScript.
             </p>
           </Col>
         </Row>
