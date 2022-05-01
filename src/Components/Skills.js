@@ -5,7 +5,7 @@ import { Row, Col, Container } from "react-bootstrap";
 
 function Skills() {
   return (
-    <div>
+    <div className='skillsBG'>
       <Container>
         <Row>
           <Col className="skills">
