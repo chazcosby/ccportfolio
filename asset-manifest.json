@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ccportfolio/static/css/main.ddc8b534.css",
-    "main.js": "/ccportfolio/static/js/main.1f2928f8.js",
+    "main.css": "/ccportfolio/static/css/main.d9fa243d.css",
+    "main.js": "/ccportfolio/static/js/main.11577d5d.js",
     "static/media/news-app-img.png": "/ccportfolio/static/media/news-app-img.bf27f3c087c4a3a7622c.png",
     "static/media/SkillsBS.jpg": "/ccportfolio/static/media/SkillsBS.5ad69da61dd96519f53d.jpg",
     "static/media/decoder-img.png": "/ccportfolio/static/media/decoder-img.4940c4f3cfbe3cd74c96.png",
@@ -9,11 +9,11 @@
     "static/media/weather-app-img.png": "/ccportfolio/static/media/weather-app-img.deba4ee2e5c59e3f3b86.png",
     "static/media/heroBannerImage.png": "/ccportfolio/static/media/heroBannerImage.c036d092eef6194fc788.png",
     "index.html": "/ccportfolio/index.html",
-    "main.ddc8b534.css.map": "/ccportfolio/static/css/main.ddc8b534.css.map",
-    "main.1f2928f8.js.map": "/ccportfolio/static/js/main.1f2928f8.js.map"
+    "main.d9fa243d.css.map": "/ccportfolio/static/css/main.d9fa243d.css.map",
+    "main.11577d5d.js.map": "/ccportfolio/static/js/main.11577d5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddc8b534.css",
-    "static/js/main.1f2928f8.js"
+    "static/css/main.d9fa243d.css",
+    "static/js/main.11577d5d.js"
   ]
 }
